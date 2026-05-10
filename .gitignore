@@ -1,0 +1,23 @@
+# Node (хэрэв JS/TS сонговол)
+node_modules/
+.env
+dist/
+build/
+*.log
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# AI session logs (бүрэн биш, зөвхөн товчилсон хадгална)
+*.full.txt
