@@ -1,0 +1,32 @@
+{
+  "name": "biedaalt-13",
+  "version": "1.0.0",
+  "description": "- **Сэдэв**: Personal Task Tracker (To-do list)\r - **Стек**: Node.js + Express + SQLite (better-sqlite3)\r - **Онцлог (3-5 feature)**:\r   1. Task CRUD (Create, Read, Update, Delete)\r   2. Due date тогтоох, засварлах\r   3. Priority (High, Medium, Low) -ээр ангилах\r   4. Төлөв (completed / not completed) чагнах\r   5. Filter: due date, priority, completed\r - **AI хэрэгсэл**: Claude (эсвэл таны хэрэглэж буй AI)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "nodemon partB/src/server.js",
+    "start": "node partB/src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bulgantuul/biedaalt-13.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Bulgantuul/biedaalt-13/issues"
+  },
+  "homepage": "https://github.com/Bulgantuul/biedaalt-13#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "sqlite3": "^6.0.1"
+  },
+  "devDependencies": {
+    "jest": "^30.4.2",
+    "nodemon": "^3.1.14",
+    "supertest": "^7.2.2"
+  }
+}
